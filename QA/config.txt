@@ -1,0 +1,2 @@
+1. Q:ssh报错"bad permissions: ignore key: /home/xxx/.ssh/id_rsa"
+   A:权限设置不当，ssh key的权限应当为700
