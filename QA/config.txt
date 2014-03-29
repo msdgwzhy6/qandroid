@@ -1,2 +1,5 @@
-1. Q:ssh报错"bad permissions: ignore key: /home/xxx/.ssh/id_rsa"
-   A:权限设置不当，ssh key的权限应当为700
+1. Q: ssh报错"bad permissions: ignore key: /home/xxx/.ssh/id_rsa"
+   A: 权限设置不当，ssh key的权限应当为700
+
+2. Q: bash: ./adb: No such file or directory
+   A: sudo apt-get install ia32-libs
